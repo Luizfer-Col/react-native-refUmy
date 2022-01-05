@@ -1,15 +1,13 @@
 import { useState } from "react"
+import { useContador } from "../hooks/useContador"
 
-export const Contador = () => {
-    //el tipado en el useState con<> no sie pre es necesario
-const [valor, setValor] = useState<number>(10)
-    const contar = (numero:number)=>{
-        setValor(valor+numero)
+export const ContadorConHook = () => {
 
-    }
+    const {valor, contar}= useContador(20);
+
     return (
         <>
-           <h3>Contador: <small>{valor}</small></h3> 
+           <h3>Contador con hook: <small>{valor}</small></h3> 
 
            <button 
            className="btn btn-primary"
