@@ -1,15 +1,17 @@
-import { Contador } from "./components/Contador";
-import { ContadorConHook } from "./components/ContadorConHook";
-import { Funciones } from "./typescript/Funciones";
-import { ObjetosLiterales } from "./typescript/ObjetosLiterales";
-import { TiposBasicos } from "./typescript/TiposBasicos";
+// import { Contador } from "./components/Contador";
+// import { ContadorConHook } from "./components/ContadorConHook";
+// import { Funciones } from "./typescript/Funciones";
+// import { ObjetosLiterales } from "./typescript/ObjetosLiterales";
+// import { TiposBasicos } from "./typescript/TiposBasicos";
+
+import { Login } from "./components/Login";
 
  const App = () => {
   return (
     <div className="mt-2">
       <h1>Introducción a Ts - React</h1>
       <hr/>
-      <TiposBasicos />
+      {/* <TiposBasicos />
       <hr/>
       <ObjetosLiterales />
       <hr/>
@@ -17,7 +19,8 @@ import { TiposBasicos } from "./typescript/TiposBasicos";
       <hr/>
       <Contador/>
       <hr/>
-      <ContadorConHook/>
+      <ContadorConHook/> */}
+      <Login />
     </div>
   )
 }
