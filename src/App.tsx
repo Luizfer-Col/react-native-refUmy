@@ -3,8 +3,10 @@
 // import { Funciones } from "./typescript/Funciones";
 // import { ObjetosLiterales } from "./typescript/ObjetosLiterales";
 // import { TiposBasicos } from "./typescript/TiposBasicos";
+// import { Login } from "./components/Login";
+import { Usuarios } from "./components/Usuarios";
 
-import { Login } from "./components/Login";
+
 
  const App = () => {
   return (
@@ -20,7 +22,8 @@ import { Login } from "./components/Login";
       <Contador/>
       <hr/>
       <ContadorConHook/> */}
-      <Login />
+      {/* <Login /> */}
+      <Usuarios />
     </div>
   )
 }
